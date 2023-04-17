@@ -1,1 +1,1 @@
-# gptai
+# gptAI
