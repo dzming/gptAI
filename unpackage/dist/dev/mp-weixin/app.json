@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chatgpt/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "scrollIndicator": "none",
+    "bounce": "none"
+  },
+  "tabBar": {
+    "fontSize": "12px",
+    "color": "#a6a6a6",
+    "selectedColor": "#28b07c",
+    "borderStyle": "black",
+    "iconWidth": "24px",
+    "spacing": "2px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/btn_09_nor.png",
+        "text": "首页",
+        "selectedIconPath": "static/images/btn_09_sel.png"
+      },
+      {
+        "pagePath": "pages/chatgpt/index",
+        "iconPath": "static/images/btn_10_nor.png",
+        "selectedIconPath": "static/images/btn_10_sel.png",
+        "text": "问答"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "static/images/btn_11_nor.png",
+        "text": "我的",
+        "selectedIconPath": "static/images/btn_11_sel.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
