@@ -2,8 +2,10 @@ import App from './App'
 
 // #ifndef VUE3
 import Vue from 'vue'
+import uView from 'uni_modules/uview-ui/index.js'
 Vue.config.productionTip = false
 App.mpType = 'app'
+Vue.use(uView)
 
 try {
   function isPromise(obj) {
