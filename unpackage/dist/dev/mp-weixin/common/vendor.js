@@ -774,7 +774,7 @@ function populateParameters(result) {
   // wx.getAccountInfoSync
 
   var parameters = {
-    appId: "__UNI__5FF2A0D",
+    appId: "__UNI__E97CBBA",
     appName: "gptai",
     appVersion: "1.0.0",
     appVersionCode: "100",
@@ -873,7 +873,7 @@ var getAppBaseInfo = {
     var _hostName = getHostName(result);
     var hostLanguage = language.replace('_', '-');
     result = sortObject(Object.assign(result, {
-      appId: "__UNI__5FF2A0D",
+      appId: "__UNI__E97CBBA",
       appName: "gptai",
       appVersion: "1.0.0",
       appVersionCode: "100",
@@ -9455,9 +9455,9 @@ internalMixin(Vue);
 
 /***/ }),
 /* 26 */
-/*!**********************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/pages.json ***!
-  \**********************************************/
+/*!*****************************************!*\
+  !*** D:/uniapp_wechat/gptAI/pages.json ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17106,9 +17106,9 @@ module.exports = _isNativeFunction, module.exports.__esModule = true, module.exp
 
 /***/ }),
 /* 37 */
-/*!***************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/pages.json?{"type":"origin-pages-json"} ***!
-  \***************************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/pages.json?{"type":"origin-pages-json"} ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17177,9 +17177,9 @@ exports.default = _default;
 
 /***/ }),
 /* 38 */
-/*!**************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/pages.json?{"type":"stat"} ***!
-  \**************************************************************/
+/*!*********************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/pages.json?{"type":"stat"} ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17191,7 +17191,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _default = {
-  "appid": "__UNI__5FF2A0D"
+  "appid": "__UNI__E97CBBA"
 };
 exports.default = _default;
 
@@ -17333,9 +17333,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 45 */
-/*!*****************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/index.js ***!
-  \*****************************************************************/
+/*!************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/index.js ***!
+  \************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17422,9 +17422,9 @@ exports.default = _default;
 
 /***/ }),
 /* 46 */
-/*!****************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/mixin/mixin.js ***!
-  \****************************************************************************/
+/*!***********************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17590,9 +17590,9 @@ exports.default = _default;
 
 /***/ }),
 /* 47 */
-/*!******************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17613,9 +17613,9 @@ exports.default = _default;
 
 /***/ }),
 /* 48 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/index.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17633,9 +17633,9 @@ exports.default = _default;
 
 /***/ }),
 /* 49 */
-/*!******************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
-  \******************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17839,9 +17839,9 @@ exports.default = Request;
 
 /***/ }),
 /* 50 */
-/*!**************************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
-  \**************************************************************************************************/
+/*!*********************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17861,9 +17861,9 @@ exports.default = _default;
 
 /***/ }),
 /* 51 */
-/*!********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
-  \********************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17942,9 +17942,9 @@ exports.default = _default;
 
 /***/ }),
 /* 52 */
-/*!**********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18012,9 +18012,9 @@ function buildURL(url, params) {
 
 /***/ }),
 /* 53 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/utils.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18165,9 +18165,9 @@ function isUndefined(val) {
 
 /***/ }),
 /* 54 */
-/*!************************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
-  \************************************************************************************************/
+/*!*******************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18199,9 +18199,9 @@ function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 /* 55 */
-/*!***************************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
-  \***************************************************************************************************/
+/*!**********************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18227,9 +18227,9 @@ function isAbsoluteURL(url) {
 
 /***/ }),
 /* 56 */
-/*!*************************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18253,9 +18253,9 @@ function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 57 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18285,9 +18285,9 @@ function settle(resolve, reject, response) {
 
 /***/ }),
 /* 58 */
-/*!*****************************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18349,9 +18349,9 @@ exports.default = _default;
 
 /***/ }),
 /* 59 */
-/*!**********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18425,9 +18425,9 @@ exports.default = _default;
 
 /***/ }),
 /* 60 */
-/*!*******************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
-  \*******************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18457,9 +18457,9 @@ exports.default = _default;
 
 /***/ }),
 /* 61 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18705,7 +18705,7 @@ var clone = function () {
 }();
 var _default = clone;
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../Hbuilder/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 62).Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../Hbuilder/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 62).Buffer))
 
 /***/ }),
 /* 62 */
@@ -20781,9 +20781,9 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 66 */
-/*!***************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/util/route.js ***!
-  \***************************************************************************/
+/*!**********************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/util/route.js ***!
+  \**********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20969,9 +20969,9 @@ exports.default = _default;
 
 /***/ }),
 /* 67 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/colorGradient.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21124,9 +21124,9 @@ exports.default = _default;
 
 /***/ }),
 /* 68 */
-/*!******************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/test.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/test.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21429,9 +21429,9 @@ exports.default = _default;
 
 /***/ }),
 /* 69 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/debounce.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21476,9 +21476,9 @@ exports.default = _default;
 
 /***/ }),
 /* 70 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/throttle.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21525,9 +21525,9 @@ exports.default = _default;
 
 /***/ }),
 /* 71 */
-/*!*******************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/index.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/index.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22326,9 +22326,9 @@ exports.default = _default;
 
 /***/ }),
 /* 72 */
-/*!*******************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/digit.js ***!
-  \*******************************************************************************/
+/*!**************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/digit.js ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22545,9 +22545,9 @@ module.exports = _toArray, module.exports.__esModule = true, module.exports["def
 
 /***/ }),
 /* 74 */
-/*!******************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/config.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/config.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22589,9 +22589,9 @@ exports.default = _default;
 
 /***/ }),
 /* 75 */
-/*!*****************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22701,9 +22701,9 @@ exports.default = _default;
 
 /***/ }),
 /* 76 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22745,9 +22745,9 @@ exports.default = _default;
 
 /***/ }),
 /* 77 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/album.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22789,9 +22789,9 @@ exports.default = _default;
 
 /***/ }),
 /* 78 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/alert.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22828,9 +22828,9 @@ exports.default = _default;
 
 /***/ }),
 /* 79 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/avatar.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22873,9 +22873,9 @@ exports.default = _default;
 
 /***/ }),
 /* 80 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22915,9 +22915,9 @@ exports.default = _default;
 
 /***/ }),
 /* 81 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/backtop.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22961,9 +22961,9 @@ exports.default = _default;
 
 /***/ }),
 /* 82 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/badge.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23007,9 +23007,9 @@ exports.default = _default;
 
 /***/ }),
 /* 83 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/button.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23066,9 +23066,9 @@ exports.default = _default;
 
 /***/ }),
 /* 84 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/calendar.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23129,9 +23129,9 @@ exports.default = _default;
 
 /***/ }),
 /* 85 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23161,9 +23161,9 @@ exports.default = _default;
 
 /***/ }),
 /* 86 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/cell.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23213,9 +23213,9 @@ exports.default = _default;
 
 /***/ }),
 /* 87 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23247,9 +23247,9 @@ exports.default = _default;
 
 /***/ }),
 /* 88 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23291,9 +23291,9 @@ exports.default = _default;
 
 /***/ }),
 /* 89 */
-/*!*******************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
-  \*******************************************************************************************/
+/*!**************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \**************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23339,9 +23339,9 @@ exports.default = _default;
 
 /***/ }),
 /* 90 */
-/*!********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
-  \********************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23371,9 +23371,9 @@ exports.default = _default;
 
 /***/ }),
 /* 91 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/code.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23408,9 +23408,9 @@ exports.default = _default;
 
 /***/ }),
 /* 92 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23454,9 +23454,9 @@ exports.default = _default;
 
 /***/ }),
 /* 93 */
-/*!*********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/col.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23490,9 +23490,9 @@ exports.default = _default;
 
 /***/ }),
 /* 94 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/collapse.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23524,9 +23524,9 @@ exports.default = _default;
 
 /***/ }),
 /* 95 */
-/*!******************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
-  \******************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23566,9 +23566,9 @@ exports.default = _default;
 
 /***/ }),
 /* 96 */
-/*!******************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
-  \******************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23607,9 +23607,9 @@ exports.default = _default;
 
 /***/ }),
 /* 97 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/countDown.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23642,9 +23642,9 @@ exports.default = _default;
 
 /***/ }),
 /* 98 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/countTo.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23684,9 +23684,9 @@ exports.default = _default;
 
 /***/ }),
 /* 99 */
-/*!********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
-  \********************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23739,9 +23739,9 @@ exports.default = _default;
 
 /***/ }),
 /* 100 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/divider.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23778,9 +23778,9 @@ exports.default = _default;
 
 /***/ }),
 /* 101 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/empty.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23820,9 +23820,9 @@ exports.default = _default;
 
 /***/ }),
 /* 102 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/form.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23865,9 +23865,9 @@ exports.default = _default;
 
 /***/ }),
 /* 103 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/formItem.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23905,9 +23905,9 @@ exports.default = _default;
 
 /***/ }),
 /* 104 */
-/*!*********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/gap.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23941,9 +23941,9 @@ exports.default = _default;
 
 /***/ }),
 /* 105 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/grid.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23975,9 +23975,9 @@ exports.default = _default;
 
 /***/ }),
 /* 106 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24008,9 +24008,9 @@ exports.default = _default;
 
 /***/ }),
 /* 107 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/icon.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24060,9 +24060,9 @@ exports.default = _default;
 
 /***/ }),
 /* 108 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/image.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24107,9 +24107,9 @@ exports.default = _default;
 
 /***/ }),
 /* 109 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24143,9 +24143,9 @@ exports.default = _default;
 
 /***/ }),
 /* 110 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/indexList.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24181,9 +24181,9 @@ exports.default = _default;
 
 /***/ }),
 /* 111 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/input.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24246,9 +24246,9 @@ exports.default = _default;
 
 /***/ }),
 /* 112 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24293,9 +24293,9 @@ exports.default = _default;
 
 /***/ }),
 /* 113 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/line.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24330,9 +24330,9 @@ exports.default = _default;
 
 /***/ }),
 /* 114 */
-/*!******************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
-  \******************************************************************************************/
+/*!*************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24366,9 +24366,9 @@ exports.default = _default;
 
 /***/ }),
 /* 115 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/link.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24408,9 +24408,9 @@ exports.default = _default;
 
 /***/ }),
 /* 116 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/list.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24453,9 +24453,9 @@ exports.default = _default;
 
 /***/ }),
 /* 117 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/listItem.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24485,9 +24485,9 @@ exports.default = _default;
 
 /***/ }),
 /* 118 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24531,9 +24531,9 @@ exports.default = _default;
 
 /***/ }),
 /* 119 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24571,9 +24571,9 @@ exports.default = _default;
 
 /***/ }),
 /* 120 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24620,9 +24620,9 @@ exports.default = _default;
 
 /***/ }),
 /* 121 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/modal.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24667,9 +24667,9 @@ exports.default = _default;
 
 /***/ }),
 /* 122 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/navbar.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24716,9 +24716,9 @@ exports.default = _default;
 
 /***/ }),
 /* 123 */
-/*!*****************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/color.js ***!
-  \*****************************************************************************/
+/*!************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/color.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24749,9 +24749,9 @@ exports.default = _default;
 
 /***/ }),
 /* 124 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24783,9 +24783,9 @@ exports.default = _default;
 
 /***/ }),
 /* 125 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24829,9 +24829,9 @@ exports.default = _default;
 
 /***/ }),
 /* 126 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/notify.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24868,9 +24868,9 @@ exports.default = _default;
 
 /***/ }),
 /* 127 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24920,9 +24920,9 @@ exports.default = _default;
 
 /***/ }),
 /* 128 */
-/*!********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
-  \********************************************************************************************/
+/*!***************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24954,9 +24954,9 @@ exports.default = _default;
 
 /***/ }),
 /* 129 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/overlay.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24989,9 +24989,9 @@ exports.default = _default;
 
 /***/ }),
 /* 130 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/parse.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25028,9 +25028,9 @@ exports.default = _default;
 
 /***/ }),
 /* 131 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/picker.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25078,9 +25078,9 @@ exports.default = _default;
 
 /***/ }),
 /* 132 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/popup.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25124,9 +25124,9 @@ exports.default = _default;
 
 /***/ }),
 /* 133 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/radio.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25168,9 +25168,9 @@ exports.default = _default;
 
 /***/ }),
 /* 134 */
-/*!****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25215,9 +25215,9 @@ exports.default = _default;
 
 /***/ }),
 /* 135 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/rate.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25258,9 +25258,9 @@ exports.default = _default;
 
 /***/ }),
 /* 136 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/readMore.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25297,9 +25297,9 @@ exports.default = _default;
 
 /***/ }),
 /* 137 */
-/*!*********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/row.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25331,9 +25331,9 @@ exports.default = _default;
 
 /***/ }),
 /* 138 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25369,9 +25369,9 @@ exports.default = _default;
 
 /***/ }),
 /* 139 */
-/*!****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25406,9 +25406,9 @@ exports.default = _default;
 
 /***/ }),
 /* 140 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/search.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25464,9 +25464,9 @@ exports.default = _default;
 
 /***/ }),
 /* 141 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/section.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25505,9 +25505,9 @@ exports.default = _default;
 
 /***/ }),
 /* 142 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25547,9 +25547,9 @@ exports.default = _default;
 
 /***/ }),
 /* 143 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/slider.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25589,9 +25589,9 @@ exports.default = _default;
 
 /***/ }),
 /* 144 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25621,9 +25621,9 @@ exports.default = _default;
 
 /***/ }),
 /* 145 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/steps.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25659,9 +25659,9 @@ exports.default = _default;
 
 /***/ }),
 /* 146 */
-/*!***************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
-  \***************************************************************************************/
+/*!**********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25694,9 +25694,9 @@ exports.default = _default;
 
 /***/ }),
 /* 147 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/sticky.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25731,9 +25731,9 @@ exports.default = _default;
 
 /***/ }),
 /* 148 */
-/*!****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/subsection.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25771,9 +25771,9 @@ exports.default = _default;
 
 /***/ }),
 /* 149 */
-/*!*****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
-  \*****************************************************************************************/
+/*!************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25803,9 +25803,9 @@ exports.default = _default;
 
 /***/ }),
 /* 150 */
-/*!*********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
-  \*********************************************************************************************/
+/*!****************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25841,9 +25841,9 @@ exports.default = _default;
 
 /***/ }),
 /* 151 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/swiper.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25898,9 +25898,9 @@ exports.default = _default;
 
 /***/ }),
 /* 152 */
-/*!**********************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25934,9 +25934,9 @@ exports.default = _default;
 
 /***/ }),
 /* 153 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/switch.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -25975,9 +25975,9 @@ exports.default = _default;
 
 /***/ }),
 /* 154 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26014,9 +26014,9 @@ exports.default = _default;
 
 /***/ }),
 /* 155 */
-/*!****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26051,9 +26051,9 @@ exports.default = _default;
 
 /***/ }),
 /* 156 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/tabs.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26108,9 +26108,9 @@ exports.default = _default;
 
 /***/ }),
 /* 157 */
-/*!*********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/tag.js ***!
-  \*********************************************************************************/
+/*!****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26154,9 +26154,9 @@ exports.default = _default;
 
 /***/ }),
 /* 158 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/text.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26210,9 +26210,9 @@ exports.default = _default;
 
 /***/ }),
 /* 159 */
-/*!**************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/textarea.js ***!
-  \**************************************************************************************/
+/*!*********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \*********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26263,9 +26263,9 @@ exports.default = _default;
 
 /***/ }),
 /* 160 */
-/*!***********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/toast.js ***!
-  \***********************************************************************************/
+/*!******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26309,9 +26309,9 @@ exports.default = _default;
 
 /***/ }),
 /* 161 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26346,9 +26346,9 @@ exports.default = _default;
 
 /***/ }),
 /* 162 */
-/*!*************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
-  \*************************************************************************************/
+/*!********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26390,9 +26390,9 @@ exports.default = _default;
 
 /***/ }),
 /* 163 */
-/*!****************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/transition.js ***!
-  \****************************************************************************************/
+/*!***********************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26425,9 +26425,9 @@ exports.default = _default;
 
 /***/ }),
 /* 164 */
-/*!************************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/props/upload.js ***!
-  \************************************************************************************/
+/*!*******************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26484,9 +26484,9 @@ exports.default = _default;
 
 /***/ }),
 /* 165 */
-/*!******************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/config/zIndex.js ***!
-  \******************************************************************************/
+/*!*************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26520,9 +26520,9 @@ exports.default = _default;
 
 /***/ }),
 /* 166 */
-/*!**********************************************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/uni_modules/uview-ui/libs/function/platform.js ***!
-  \**********************************************************************************/
+/*!*****************************************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/uni_modules/uview-ui/libs/function/platform.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26564,9 +26564,9 @@ exports.default = _default;
 /* 179 */,
 /* 180 */,
 /* 181 */
-/*!*****************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/utils/dateTime.js ***!
-  \*****************************************************/
+/*!************************************************!*\
+  !*** D:/uniapp_wechat/gptAI/utils/dateTime.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -26722,9 +26722,9 @@ exports.default = _default;
 /* 195 */,
 /* 196 */,
 /* 197 */
-/*!***************************************************!*\
-  !*** D:/uniapp_wechat/wxpj/gptAI/static/logo.png ***!
-  \***************************************************/
+/*!**********************************************!*\
+  !*** D:/uniapp_wechat/gptAI/static/logo.png ***!
+  \**********************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 

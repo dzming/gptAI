@@ -1,6 +1,6 @@
 {
     "name" : "gptai",
-    "appid" : "__UNI__5FF2A0D",
+    "appid" : "__UNI__E97CBBA",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -50,7 +50,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx96ccddba8b107823",
+        "appid" : "wx8b5dad935875e809",
         "setting" : {
             "urlCheck" : false
         },

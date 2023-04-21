@@ -7,7 +7,7 @@
 			<view class="chat-main" :style="{paddingBottom:inputh+'px'}">
 				<view class="chat-ls" v-for="(item,index) in unshiftmsg" :key="index" :id="'msg'+ index">
 					<view class="chat-time" v-if="item.createTime != ''">{{changeTime(item.createTime)}}</view>
-					<view class="msg-m msg-left" v-if="item.sendName ==  friendName">
+					<view class="msg-m msg-left" v-if="item.isReply">
 						<image class="user-img" src="/static/logo.png"></image>
 						<view class="message" v-if="item.TextType == 0">
 							<!-- 文字 -->
@@ -35,7 +35,7 @@
 							</view>
 						</view>
 					</view>
-					<view class="msg-m msg-right" v-if="item.sendName != friendName">
+					<view class="msg-m msg-right" v-if="!item.isReply">
 						<image class="user-img" src="/static/logo.png"></image>
 						<view class="message" v-if="item.TextType == 0">
 							<view class="msg-text">{{item.sendText}}</view>
@@ -74,144 +74,144 @@
 
 	//音频播放
 	const innerAudioContext = uni.createInnerAudioContext();
-
+	const YOUR_API_KEY = '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'
 	export default {
 		data() {
 			return {
-				friendName: "xpq",
-				msg: [{
-						"sendName": "xpq",
-						"receviceName": "゛时光い",
-						"sendText": {
-							"address": "广州市",
-							"latitude": 23.13507, //纬度
-							"longitude": 113.2108, //经度
-							"name": "广州市"
-						},
-						"createTime": dateTime.nowTime(),
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 3
-					}, {
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "沵在哪，硪祛佋沵",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					}, {
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": {
-							"voice": "时光匆匆流过",
-							"time": 2 //秒
-						},
-						"createTime": dateTime.nowTime(),
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 2
-					}, {
-						"sendName": "xpq",
-						"receviceName": "゛时光い",
-						"sendText": {
-							"voice": "谢谢你",
-							"time": 60 //秒
-						},
-						"createTime": dateTime.nowTime(),
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 2
-					}, {
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "就现在",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "說沵嗳我",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "xpq",
-						"receviceName": "xpq",
-						"sendText": "嗳硪沵怕辽嗎",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "收到请回答",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "http://demo.rageframe.com/attachment/images/2021/11/18/image_1637224530_diIlZlmm.jpeg",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 1
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "xpq",
-						"receviceName": "゛时光い",
-						"sendText": "http://demo2.rageframe.com/attachment/images/2021/09/01/image_1630483477_N03W37zs.jpg",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 1
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "这是第三条未读消息",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "这是第二条未读消息",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 0
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "http://demo2.rageframe.com/attachment/images/2021/09/01/image_1630483477_N03W37zs.jpg",
-						"updateTime": null,
-						"chatmState": 1,
-						"TextType": 1
-					},
-					{
-						"createTime": dateTime.nowTime(),
-						"sendName": "゛时光い",
-						"receviceName": "xpq",
-						"sendText": "爱你啊",
-						"updateTime": null,
-						"chatmState": 0,
-						"TextType": 0
-					}
+				msg: [
+					// {
+					// 	"sendName": "xpq",
+					// 	"receviceName": "゛时光い",
+					// 	"sendText": {
+					// 		"address": "广州市",
+					// 		"latitude": 23.13507, //纬度
+					// 		"longitude": 113.2108, //经度
+					// 		"name": "广州市"
+					// 	},
+					// 	"createTime": dateTime.nowTime(),
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 3
+					// }, {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "沵在哪，硪祛佋沵",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// }, {
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": {
+					// 		"voice": "时光匆匆流过",
+					// 		"time": 2 //秒
+					// 	},
+					// 	"createTime": dateTime.nowTime(),
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 2
+					// }, {
+					// 	"sendName": "xpq",
+					// 	"receviceName": "゛时光い",
+					// 	"sendText": {
+					// 		"voice": "谢谢你",
+					// 		"time": 60 //秒
+					// 	},
+					// 	"createTime": dateTime.nowTime(),
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 2
+					// }, {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "就现在",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "說沵嗳我",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "xpq",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "嗳硪沵怕辽嗎",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "收到请回答",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "http://demo.rageframe.com/attachment/images/2021/11/18/image_1637224530_diIlZlmm.jpeg",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 1
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "xpq",
+					// 	"receviceName": "゛时光い",
+					// 	"sendText": "http://demo2.rageframe.com/attachment/images/2021/09/01/image_1630483477_N03W37zs.jpg",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 1
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "这是第三条未读消息",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "这是第二条未读消息",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 0
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "http://demo2.rageframe.com/attachment/images/2021/09/01/image_1630483477_N03W37zs.jpg",
+					// 	"updateTime": null,
+					// 	"chatmState": 1,
+					// 	"TextType": 1
+					// },
+					// {
+					// 	"createTime": dateTime.nowTime(),
+					// 	"sendName": "゛时光い",
+					// 	"receviceName": "xpq",
+					// 	"sendText": "爱你啊",
+					// 	"updateTime": null,
+					// 	"chatmState": 0,
+					// 	"TextType": 0
+					// }
 				],
 				// 反转数据接收
 				unshiftmsg: [],
@@ -306,21 +306,36 @@
 				});
 			},
 			//接受输入内容
-			inputs(e) {
+			async inputs(e) {
 				//时间间隔处理
 				let data = {
-					"sendName": "゛时光い",
-					"receviceName": "xpq",
+					"isReply": true,
+					"sendText": '',
+					"createTime": new Date(),
+					"updateTime": new Date(),
+					"TextType": 0
+				};
+				this.unshiftmsg.push({
+					"isReply": false,
 					"sendText": e.message,
 					"createTime": new Date(),
 					"updateTime": new Date(),
-					"chatmState": 1,
-					"TextType": e.type
-				};
-				// 发送给服务器消息
-				// onSendWS(JSON.stringify(data));
-
-				this.unshiftmsg.push(data);
+					"TextType": 0
+				});
+				// 请求chatGPT云函数  
+				uniCloud.callFunction({
+					name: 'gptInit',
+					data: {
+						msg: e.message
+					}
+				}).then(res => {
+					// if (res.errCode == 200) {
+					console.log('gpt', res.result.data[0].text)
+					data.sendText = res.result.data[0].text
+					this.unshiftmsg.push(data);
+					// }
+				})
+				console.log(this.unshiftmsg)
 				// 跳转到最后一条数据 与前面的:id进行对照
 				this.$nextTick(function() {
 					this.scrollToView = 'msg' + (this.unshiftmsg.length - 1)

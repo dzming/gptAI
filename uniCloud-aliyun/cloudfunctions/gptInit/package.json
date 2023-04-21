@@ -1,0 +1,7 @@
+{
+  "name": "gptInit",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
